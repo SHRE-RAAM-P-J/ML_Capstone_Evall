@@ -1,0 +1,46 @@
+{
+  "k_kmeans": 6,
+  "k_agglomerative": 4,
+  "n_features": 20,
+  "n_records": 42767,
+  "n_sample": 8000,
+  "n_tsne": 5000,
+  "pca_var": [
+    0.18714694560582776,
+    0.13267233741074935
+  ],
+  "ari_vs_severity": {
+    "kmeans": -0.0002479079153478875,
+    "agglomerative": -0.015107369084925907
+  },
+  "kmeans_stability_ari": [
+    0.5348978476330077,
+    0.6363043587644703,
+    0.6353294670234948,
+    0.5004211320849749,
+    0.9881015936877792
+  ],
+  "features": [
+    "Start_Lat",
+    "Start_Lng",
+    "Temperature(F)",
+    "Humidity(%)",
+    "Pressure(in)",
+    "Visibility(mi)",
+    "Wind_Speed(mph)",
+    "Hour_sin",
+    "Hour_cos",
+    "Weekday_sin",
+    "Weekday_cos",
+    "Month_sin",
+    "Month_cos",
+    "Is_Night",
+    "Traffic_Signal",
+    "Junction",
+    "Crossing",
+    "Station",
+    "Stop",
+    "Amenity"
+  ],
+  "sklearn": "1.9.1"
+}

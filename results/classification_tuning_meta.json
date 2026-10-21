@@ -1,0 +1,16 @@
+{
+  "candidate": "Random Forest Classifier",
+  "best_params": {
+    "clf__n_estimators": 200,
+    "clf__min_samples_leaf": 5,
+    "clf__max_features": 0.5,
+    "clf__max_depth": 30
+  },
+  "best_cv_f1_3fold": 0.6955836252091488,
+  "boot_ci_f1_delta": [
+    0.004887436436381895,
+    0.01790104438378165
+  ],
+  "tune_seconds": 223.8584532737732,
+  "sklearn": "1.9.1"
+}
